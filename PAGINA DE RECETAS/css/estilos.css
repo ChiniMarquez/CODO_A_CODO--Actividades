@@ -1,0 +1,119 @@
+/*Estructura de css 
+selector{ 
+    propiedad:valor
+}
+*/
+
+body {
+    background-image: url(./../img/condimentos.jpg);
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+header {
+    background-image: url(./../img/condimentos.jpg);
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+header h1 {
+    text-align: center;
+    color: rgb(92, 6, 49);
+    font-size: 55px;
+}
+
+header h1 {
+    background-color: #f7b89ba4;
+    padding: 30px;
+    height: 40px;
+}
+
+nav {
+    background-color: rgb(133, 0, 73);
+    height: 20px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+nav ol li {
+    background-color: rgba(100, 22, 48, 0.432);
+    display: inline;
+    color: white;
+    padding: 015px;
+    margin: 0px 10px;
+    top: 10px;
+}
+
+article {
+    padding-top: 90px;
+    background: #f7b89b;
+    width: 94%;
+    margin-left: 3%;
+}
+
+nav ol li a {
+    text-decoration: none;
+    color: white
+}
+
+nav ol li:hover {
+    background-color: rgb(180, 46, 120);
+    color: black;
+    box-shadow: 5px 3px 5px rgba(156, 10, 78, 0.644);
+}
+
+nav ol li a:hover {
+    color: rgb(255, 195, 208);
+}
+
+
+/* /*Estructura de css 
+selector{ 
+    propiedad:valor
+}
+*/
+
+
+/* 
+header{
+    background-image: url('../img/header.jpg');
+    height: 150px;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    width: 80%;
+    top: 0px;
+    margin-left: 10%;
+}
+
+nav {
+    background-color: transparent;
+    height: 50px;
+    position: fixed;
+    top: 0px;
+    left: 50px;
+}
+
+article{
+   padding-top: 100px;
+   background: linear-gradient(rgba(255, 0, 0, 0.411),rgba(255, 255, 0, 0.52));
+    width: 80%;
+   margin-left: 10%;
+}
+article #casera{
+    background: linear-gradient(rgba(0, 128, 0, 0.424)0, 128, 0, 0.527),rgba(255, 255, 0, 0.582));
+}
+
+nav ol li:hover{
+    background-color: rgba(44, 43, 43, 0.418);
+    color: black;
+    box-shadow: 5px 3px 5px black;
+}
+nav ol li a:hover{
+    color: black;
+}
